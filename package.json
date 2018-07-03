@@ -10,6 +10,9 @@
     "lint": "eslint .",
     "lintfix": "eslint . --fix"
   },
+  "files": [
+    ".eslintrc.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/paschalidi/shared-linter"
@@ -24,7 +27,7 @@
   },
   "homepage": "https://github.com/paschalidi/shared-linter#readme",
   "devDependencies": {
-    "eslint": "4.19.1",
+    "eslint": "5.0.1",
     "eslint-config-airbnb": "17.0.0",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-import": "2.13.0",
