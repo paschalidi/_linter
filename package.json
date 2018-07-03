@@ -1,0 +1,28 @@
+{
+  "name": "shared-linter",
+  "version": "0.0.0-development",
+  "description": "a sharable linter as npm package",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paschalidi/shared-linter"
+  },
+  "keywords": [
+    "code_quality"
+  ],
+  "author": "paschalidi <paschalidi@outlook.com> (https://www.paschalidi.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paschalidi/shared-linter/issues"
+  },
+  "homepage": "https://github.com/paschalidi/shared-linter#readme",
+  "devDependencies": {
+    "semantic-release": "^15.6.3",
+    "travis-deploy-once": "^5.0.1"
+  }
+}
