@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" ",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,14 @@
   },
   "homepage": "https://github.com/paschalidi/shared-linter#readme",
   "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-prettier": "2.6.1",
+    "eslint-plugin-react": "7.10.0",
+    "prettier": "1.13.7",
     "semantic-release": "^15.6.3",
     "travis-deploy-once": "^5.0.1"
   }
